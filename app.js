@@ -15,7 +15,7 @@ while (true){
         for(let i=0;i<todo.length;i++){
             console.log(` ${i} ${todo[i]}`);
         }
-        console.log("--------------------")
+        console.log("-----------------------")
         req=prompt("enter your request : ");
     }else if(req=="delete"){
         let indx = prompt("enter your index to delete ");
